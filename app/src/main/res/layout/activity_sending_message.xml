@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.tamasakiss.com.sendingmessage.SendingMessage"
+    android:padding="20dp"
+    android:background="@drawable/images">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="259dp"
+        android:layout_height="25dp"
+        android:text="Enter your VET requiements"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter your name please"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="42dp"
+        />
+
+    <CheckBox
+        android:id="@+id/dogCheckBox"
+        android:layout_width="162dp"
+        android:layout_height="31dp"
+        android:text="Dog"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <CheckBox
+        android:id="@+id/catCheckBox"
+        android:layout_width="162dp"
+        android:layout_height="34dp"
+        android:text="Cat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <CheckBox
+        android:id="@+id/medicineCheckBox"
+        android:layout_width="162dp"
+        android:layout_height="34dp"
+        android:text="Medicine"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="171dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:text="SUBMIT"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+</LinearLayout>
